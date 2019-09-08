@@ -9,8 +9,6 @@ def factor(number):
     if number == 5:
         return 5
 
-
-
 def is_prime(number):
     if number == 1:
         return False
@@ -40,14 +38,8 @@ if __name__ == "__main__":
         if is_prime(i) and value % i == 0:
             l.append(i)
             value = value / i
-        
-
-        
-            
+             
     print(l)
-        
-
-
 
     t1 = time.time()
     print(t1-t0)

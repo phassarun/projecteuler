@@ -4,7 +4,6 @@ import math
 def is_palindome(number):
     return str(number) == str(number)[::-1]
 
-
 if __name__ == "__main__":
     min = 100*100
     max = 999*999
@@ -27,10 +26,6 @@ if __name__ == "__main__":
                 break
         if flag:
             break
-    
-    
-
-
 
 
 

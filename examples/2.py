@@ -3,7 +3,6 @@ def main():
     counter = 1
     max_valuae = 4000000
     fib_result_list = []
-    
 
     while True:
         fib_result = fibonacci(counter)
@@ -13,12 +12,6 @@ def main():
         counter += 1
 
     print(sum(list(filter(lambda x: x%2 ==0, fib_result_list))))
-        
-
-
-
-
-
 
 def fibonacci(number):
     if number == 1:
